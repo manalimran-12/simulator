@@ -1,0 +1,69 @@
+.gantt-chart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.gantt-chart-bar {
+  flex: 1;
+  height: 50px;
+  background: linear-gradient(to bottom, #FF0000, #000000);
+  margin-right: 10px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.gantt-chart-bar.idle {
+  background-color: #ccc;
+}
+
+.gantt-chart-label {
+  position: absolute;
+  bottom: -20px;
+
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-size: 14px;
+  white-space: nowrap;
+  padding: 2px 5px;
+  width:100%;
+}
+
+.start-time {
+  justify-self: flex-start;
+}
+
+.end-time {
+  justify-self: flex-end;
+ 
+
+}
+
+.customer-name {
+  margin: 10px 0px;
+  color: rgba(169, 164, 164, 0.961)
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+tr{
+  color: white;
+}
+
+
